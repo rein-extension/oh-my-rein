@@ -1,0 +1,7 @@
+#!/bin/sh
+set -eu
+REIN_ROOT=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+if [ -x "$REIN_ROOT/work/runtime/node/bin/node" ]; then
+  exec "$REIN_ROOT/work/runtime/node/bin/node" "$REIN_ROOT/src/cli.ts" "$@"
+fi
+exec node "$REIN_ROOT/src/cli.ts" "$@"

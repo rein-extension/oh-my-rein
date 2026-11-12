@@ -1,0 +1,7 @@
+{
+  "name": "oh-my-rein-pi",
+  "type": "module",
+  "pi": {
+    "extensions": ["./index.mjs"]
+  }
+}

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800" role="img" aria-labelledby="title desc">
+<title id="title">What the next worker knows</title>
+<desc id="desc">Two workers build an event signup page and a confirmation email in parallel. The main agent checks the reusable email field, asks the user about an ambiguous time in the email preview, and saves the user’s Shanghai time rule. A week later a waitlist worker gets both user agreements and the reviewed finding.</desc>
+<rect width="360" height="800" rx="14" fill="#f7f5e9"/><g font-family="Helvetica Neue,Arial,PingFang SC,Microsoft YaHei,sans-serif">
+<text x="16" y="29" font-size="14" font-weight="700" fill="#385d3d">Monday · You, in the main chat</text>
+<text x="16" y="57" font-size="18" font-weight="700" fill="#242822">“Signups only need an email here.</text>
+<text x="16" y="81" font-size="18" font-weight="700" fill="#242822">Build the signup page and the</text>
+<text x="16" y="105" font-size="18" font-weight="700" fill="#242822">confirmation email.”</text>
+<text x="16" y="144" font-size="16" font-weight="700" fill="#385d3d">Your main agent dispatches both at once</text>
+<path d="M22 155v166q0 7 7 7h7M22 198h14" fill="none" stroke="#385d3d" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="36" y="162" width="310" height="121" rx="8" fill="#e3edcf" stroke="none"/>
+<rect x="36" y="294" width="310" height="121" rx="8" fill="#ede7f6" stroke="none"/>
+<g transform="translate(48 175)">
+<rect x="0" y="0" width="30" height="24" rx="3" fill="#f7f5e9" stroke="#385d3d"/>
+<path d="M1 7h28M6 13h18M6 18h8" fill="none" stroke="#385d3d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(48 306)">
+<rect x="0" y="2" width="30" height="20" rx="3" fill="#f7f5e9" stroke="#674995"/>
+<path d="m1 4 14 10 14-10" fill="none" stroke="#674995" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="86" y="194" font-size="17" font-weight="700" fill="#385d3d">Worker A · Signup page</text>
+<text x="86" y="325" font-size="17" font-weight="700" fill="#674995">Worker B · Email</text>
+<text x="48" y="224" font-size="15" font-weight="400" fill="#242822">The patch reuses the existing email field.</text>
+<text x="48" y="248" font-size="15" font-weight="400" fill="#4b554b">Your main agent checks its validation test</text>
+<text x="48" y="268" font-size="15" font-weight="400" fill="#4b554b">and saves the finding.</text>
+<text x="48" y="355" font-size="15" font-weight="400" fill="#242822">The preview shows “19:00”. The worker</text>
+<text x="48" y="377" font-size="15" font-weight="400" fill="#242822">asks which time zone to display.</text>
+<text x="48" y="400" font-size="15" font-weight="400" fill="#4b554b">On sync, your main agent asks you.</text>
+<text x="16" y="452" font-size="19" font-weight="700" fill="#242822">“Use Shanghai time. Label it on</text>
+<text x="16" y="478" font-size="19" font-weight="700" fill="#242822">every event page and email.”</text>
+<text x="16" y="510" font-size="15" font-weight="400" fill="#4b554b">Your main agent saves your project rule and</text>
+<text x="16" y="532" font-size="15" font-weight="400" fill="#4b554b">answers the email worker. Its next preview</text>
+<text x="16" y="554" font-size="15" font-weight="400" fill="#4b554b">reads “19:00 (Shanghai time)”.</text>
+<path d="M16 574H344" fill="none" stroke="#c3c8b7" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="16" y="605" font-size="14" font-weight="700" fill="#385d3d">A week later · New chat, same project</text>
+<text x="16" y="641" font-size="23" font-weight="700" fill="#242822">“Add a waitlist page.”</text>
+<text x="16" y="679" font-size="16" font-weight="700" fill="#674995">What the new worker receives</text>
+<text x="16" y="708" font-size="16" font-weight="400" fill="#242822">Build the waitlist with the existing email field.</text>
+<text x="16" y="732" font-size="16" font-weight="400" fill="#242822">Collect only an email address. Show event</text>
+<text x="16" y="756" font-size="16" font-weight="400" fill="#242822">times in Shanghai time and label them</text>
+<text x="16" y="780" font-size="16" font-weight="400" fill="#242822">“Shanghai time”.</text>
+</g>
+</svg>

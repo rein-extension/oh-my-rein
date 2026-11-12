@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="455" viewBox="0 0 880 455" role="img" aria-labelledby="title desc">
+  <title id="title">Rein 任务流程</title>
+  <desc id="desc">主会话将选定的任务上下文通过 SSH 传给持久化的 Host。各 worker 使用独立的 Git 工作目录。同步后可在主会话处理审批和结果，并为后续任务选用已审查的发现和用户要求。</desc>
+  <rect width="880" height="455" rx="14" fill="#191c27"/>
+  <g font-family="Helvetica Neue,Arial,PingFang SC,Microsoft YaHei,sans-serif">
+    <path d="M64 89V343" fill="none" stroke="#4b505e" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 6"/>
+    <path d="M421 89V343" fill="none" stroke="#4b505e" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 6"/>
+    <path d="M648 89V343" fill="none" stroke="#4b505e" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 6"/>
+    <path d="M804 89V343" fill="none" stroke="#4b505e" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 6"/>
+    <g transform="translate(42 22)">
+    <path d="M10 9H44V28H36V35L27 28H10Z" fill="#26332f" stroke="#95e4cc" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0 1H32V20H15L7 27V20H0Z" fill="#2c342a" stroke="#c8f88a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M7 8H24M7 13H19" fill="none" stroke="#c8f88a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(399 22)">
+    <path d="M0 20l20 -8 22 8-22 8Z" fill="#302b44" stroke="#d4baff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0 20v6l20 9 22-9v-6m-22 8v7" fill="none" stroke="#d4baff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0 10l20 -8 22 8-22 8Z" fill="#302b44" stroke="#d4baff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0 10v6l20 9 22-9v-6m-22 8v7" fill="none" stroke="#d4baff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(628 25)">
+    <path d="M0 6V2H12L16 6H37V27H0Z" fill="#26332c" stroke="#c8f88a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M6 12V22M6 18Q16 18 16 12" fill="none" stroke="#c8f88a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="6" cy="12" r="2" fill="#c8f88a" stroke="none" stroke-width="1"/>
+    <circle cx="6" cy="22" r="2" fill="#c8f88a" stroke="none" stroke-width="1"/>
+    <circle cx="16" cy="12" r="2" fill="#c8f88a" stroke="none" stroke-width="1"/>
+    </g>
+    <g transform="translate(784 25)">
+    <path d="M0 6V2H12L16 6H37V27H0Z" fill="#26332c" stroke="#c8f88a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M6 12V22M6 18Q16 18 16 12" fill="none" stroke="#c8f88a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="6" cy="12" r="2" fill="#c8f88a" stroke="none" stroke-width="1"/>
+    <circle cx="6" cy="22" r="2" fill="#c8f88a" stroke="none" stroke-width="1"/>
+    <circle cx="16" cy="12" r="2" fill="#c8f88a" stroke="none" stroke-width="1"/>
+    </g>
+    <text x="64" y="77" font-size="19" font-weight="700" fill="#f3f0e4" text-anchor="middle">主会话</text>
+    <text x="421" y="77" font-size="19" font-weight="700" fill="#f3f0e4" text-anchor="middle">远程 Host</text>
+    <text x="648" y="77" font-size="19" font-weight="700" fill="#f3f0e4" text-anchor="middle">Worker A</text>
+    <text x="804" y="77" font-size="19" font-weight="700" fill="#f3f0e4" text-anchor="middle">Worker B</text>
+    <text x="83" y="114" font-size="20" font-weight="700" fill="#c8f88a" text-anchor="start">SSH · 派发任务</text>
+    <text x="83" y="139" font-size="16" font-weight="400" fill="#c6cad7" text-anchor="start">任务 ID、目标及选定的上下文</text>
+    <path d="M64 154H419" fill="none" stroke="#c8f88a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M414 149l5 5-5 5" fill="none" stroke="#c8f88a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="64" cy="154" r="4" fill="#c8f88a" stroke="none" stroke-width="1"/>
+    <text x="446" y="118" font-size="18" font-weight="700" fill="#f3f0e4" text-anchor="start">各自独立的 Git 工作目录</text>
+    <path d="M422 154H622q13 0 25-12M614 154h189" fill="none" stroke="#c8f88a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M643 138l4 4-4 4" fill="none" stroke="#c8f88a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M798 149l5 5-5 5" fill="none" stroke="#c8f88a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="446" y="180" font-size="16" font-weight="400" fill="#c6cad7" text-anchor="start">本地客户端断开后，Host 继续运行。</text>
+    <text x="83" y="211" font-size="19" font-weight="700" fill="#d4baff" text-anchor="start">请求审批并送回决定</text>
+    <path d="M65 225H648" fill="none" stroke="#d4baff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 6"/>
+    <path d="M70 220l-5 5 5 5" fill="none" stroke="#d4baff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M643 220l5 5-5 5" fill="none" stroke="#d4baff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="421" cy="225" r="3.8" fill="#191c27" stroke="#d4baff" stroke-width="1.6"/>
+    <text x="83" y="271" font-size="20" font-weight="700" fill="#d4baff" text-anchor="start">同步并审查</text>
+    <text x="83" y="296" font-size="16" font-weight="400" fill="#c6cad7" text-anchor="start">收取各次执行的报告和补丁。</text>
+    <text x="446" y="278" font-size="16" font-weight="400" fill="#c6cad7" text-anchor="start">可续接同一 worker 的原生会话。</text>
+    <path d="M804 307H446q-13 0-25 10H66M648 294v4q0 9-10 9" fill="none" stroke="#d4baff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M71 312l-5 5 5 5" fill="none" stroke="#d4baff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="804" cy="307" r="3.5" fill="#d4baff" stroke="none" stroke-width="1"/>
+    <circle cx="648" cy="294" r="3.5" fill="#d4baff" stroke="none" stroke-width="1"/>
+    <path d="M29 349H851" fill="none" stroke="#424654" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M79 376H35q-15 0-15-15V169q0-15 15-15h20" fill="none" stroke="#95e4cc" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M50 149l5 5-5 5" fill="none" stroke="#95e4cc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="95" y="386" font-size="25" font-weight="700" fill="#95e4cc" text-anchor="start">准备下一项任务</text>
+    <text x="95" y="419" font-size="17" font-weight="400" fill="#f3f0e4" text-anchor="start">主 agent 从对话中选出相关的项目要求和已审查的发现，写入下一项任务。</text>
+  </g>
+</svg>

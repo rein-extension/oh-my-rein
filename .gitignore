@@ -1,0 +1,14 @@
+node_modules/
+work/
+dist/
+.rein/
+*.sqlite*
+.DS_Store
+
+# Local planning and validation records; public setup lives in INSTALL.md and INSTALL.zh-CN.md.
+/docs/development.md
+/docs/design.md
+/docs/implementation-status.md
+
+# Machine-specific SSH endpoint created during setup.
+/endpoint.json

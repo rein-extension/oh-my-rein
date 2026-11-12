@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="533" viewBox="0 0 880 533" role="img" aria-labelledby="title desc">
+<title id="title">新 worker 收到的上下文</title>
+<desc id="desc">两个 worker 并行做报名页和确认邮件。主 agent 核对可复用的邮箱输入框，在主会话里就邮件预览的时间向用户提问，记下用户定的上海时区约定。一周后，候补页的 worker 收到两条用户约定和一条已审查的发现。</desc>
+<rect width="880" height="533" rx="14" fill="#f7f5e9"/><g font-family="Helvetica Neue,Arial,PingFang SC,Microsoft YaHei,sans-serif">
+<text x="28" y="32" font-size="16" font-weight="700" fill="#385d3d">周一 · 你在主会话里</text>
+<text x="28" y="67" font-size="25" font-weight="700" fill="#242822">“这个项目的活动报名都只收邮箱。</text>
+<text x="28" y="97" font-size="25" font-weight="700" fill="#242822">帮我做报名页，再做一封报名确认邮件。”</text>
+<path d="M28 140v-6q0-8 8-8h215m381 0h211q8 0 8 8v6" fill="none" stroke="#385d3d" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="270" y="131" font-size="16" font-weight="700" fill="#385d3d">主 agent 同时派出两个 worker</text>
+<rect x="24" y="149" width="408" height="118" rx="8" fill="#e3edcf" stroke="none"/>
+<rect x="448" y="149" width="408" height="118" rx="8" fill="#ede7f6" stroke="none"/>
+<g transform="translate(40 164)">
+<rect x="0" y="0" width="30" height="24" rx="3" fill="#f7f5e9" stroke="#385d3d"/>
+<path d="M1 7h28M6 13h18M6 18h8" fill="none" stroke="#385d3d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(464 164)">
+<rect x="0" y="2" width="30" height="20" rx="3" fill="#f7f5e9" stroke="#674995"/>
+<path d="m1 4 14 10 14-10" fill="none" stroke="#674995" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="81" y="184" font-size="21" font-weight="700" fill="#385d3d">Worker A · 报名页</text>
+<text x="505" y="184" font-size="21" font-weight="700" fill="#674995">Worker B · 确认邮件</text>
+<text x="40" y="218" font-size="17" font-weight="400" fill="#242822">补丁复用了项目里已有的邮箱输入框。</text>
+<text x="40" y="244" font-size="16" font-weight="400" fill="#4b554b">主 agent 核对校验测试，记下可复用的输入框。</text>
+<text x="464" y="218" font-size="17" font-weight="400" fill="#242822">邮件预览上写着「19:00」。</text>
+<text x="464" y="244" font-size="16" font-weight="400" fill="#4b554b">worker 请你确认应该标哪个时区。</text>
+<text x="28" y="298" font-size="16" font-weight="400" fill="#4b554b">同步后，主 agent 在原对话里转达了邮件 worker 的问题。</text>
+<text x="28" y="331" font-size="23" font-weight="700" fill="#242822">“用上海时间。以后活动页面和邮件都写明是上海时间。”</text>
+<text x="28" y="359" font-size="16" font-weight="400" fill="#4b554b">主 agent 记下这条项目约定，并把答复带回邮件任务。下一版预览写着「19:00（上海时间）」。</text>
+<path d="M27 380H853" fill="none" stroke="#c3c8b7" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="28" y="415" font-size="15" font-weight="700" fill="#385d3d">一周后 · 同一项目的新对话</text>
+<text x="28" y="454" font-size="26" font-weight="700" fill="#242822">“加个候补报名页。”</text>
+<path d="M317 399V507" fill="none" stroke="#c3c8b7" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="338" y="415" font-size="16" font-weight="700" fill="#674995">主 agent 发给新 worker 的任务说明</text>
+<text x="338" y="448" font-size="18" font-weight="700" fill="#242822">做候补报名页，复用现有的邮箱输入框。</text>
+<text x="338" y="476" font-size="18" font-weight="400" fill="#242822">只收邮箱。活动时间换算为上海时间，</text>
+<text x="338" y="502" font-size="18" font-weight="400" fill="#242822">并在时间旁标明「上海时间」。</text>
+</g>
+</svg>

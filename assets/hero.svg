@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="282" viewBox="0 0 960 282" role="img" aria-labelledby="title desc">
+  <title id="title">Oh My Rein</title>
+  <desc id="desc">Three paths branch from a green square, pass through separate worker terminals and meet at a stack of project notes for the next task.</desc>
+  <defs>
+    <linearGradient id="ground" x2="1" y2=".55">
+      <stop stop-color="#121519"/>
+      <stop offset="1" stop-color="#20212c"/>
+    </linearGradient>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.85" fill="#aeb5ab" opacity=".18"/>
+    </pattern>
+    <linearGradient id="fade">
+      <stop stop-color="black"/><stop offset=".25" stop-color="white"/>
+      <stop offset=".78" stop-color="white"/><stop offset="1" stop-color="black"/>
+    </linearGradient>
+    <mask id="grid"><rect x="463" y="12" width="483" height="253" fill="url(#fade)"/></mask>
+  </defs>
+  <rect width="960" height="282" rx="18" fill="url(#ground)"/>
+  <rect x="463" y="12" width="483" height="253" fill="url(#dots)" mask="url(#grid)"/>
+  <g transform="translate(468 29) scale(1.04)">
+    <g fill="none" stroke-linejoin="round" stroke-linecap="square" stroke-width="6">
+      <path stroke="#bcaaff" d="M55 149L164 40H249L282 73"/>
+      <path stroke="#a1dba4" d="M78 149H97L129 181H235L305 111H345L383 73"/>
+      <path stroke="#f5f2df" d="M19 149H78L129 98H244L269 73H418"/>
+    </g>
+    <rect x="7" y="137" width="24" height="24" rx="2" fill="#16191f" stroke="#ccfa74" stroke-width="3"/>
+    <path fill="#ccfa74" d="M13 143h12v12H13z"/>
+    <rect x="174" y="22" width="54" height="36" rx="4" fill="#bcaaff"/>
+    <rect x="151" y="80" width="54" height="36" rx="4" fill="#f5f2df"/>
+    <rect x="155" y="163" width="54" height="36" rx="4" fill="#a1dba4"/>
+    <g fill="none" stroke="#1b1c22" stroke-width="3.5" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="m186 34 7 6-7 6m12 0h9"/>
+      <path d="m163 92 7 6-7 6m12 0h9"/>
+      <path d="m167 175 7 6-7 6m12 0h9"/>
+    </g>
+    <g stroke="#ccfa74" stroke-width="2.5" stroke-linejoin="round" fill="#1a1d23">
+      <rect x="395" y="69" width="23" height="23" rx="1"/>
+      <rect x="401" y="63" width="23" height="23" rx="1"/>
+    </g>
+    <path fill="#ccfa74" d="M407 57h23v23h-23z"/>
+  </g>
+  <text x="44" y="84" fill="#f5f2df" font-family="Baskerville,Georgia,serif" font-style="italic" font-size="54">Oh My</text>
+  <text x="36" y="199" fill="#f5f2df" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="146" font-weight="750" letter-spacing="-9">Rein<tspan fill="#ccfa74">.</tspan></text>
+  <text x="44" y="232" fill="#e7e7df" font-family="Helvetica Neue,Arial,sans-serif" font-size="23" font-weight="550">Parallel tasks in one conversation.</text>
+  <text x="44" y="256" fill="#bbd79d" font-family="Helvetica Neue,Arial,sans-serif" font-size="17">Carry decisions and reviewed findings into the next task.</text>
+</svg>

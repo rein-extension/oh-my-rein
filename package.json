@@ -1,0 +1,58 @@
+{
+  "name": "oh-my-rein",
+  "version": "0.1.0-beta.1",
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0 <25"
+  },
+  "scripts": {
+    "demo": "node scripts/demo.ts",
+    "check": "tsc --noEmit",
+    "test": "node --test tests/*.test.ts",
+    "test:live": "node scripts/live-smoke.ts",
+    "test:live:ssh": "node scripts/live-ssh-smoke.ts",
+    "test:live:context": "node scripts/live-context-smoke.ts",
+    "rein": "node src/cli.ts",
+    "build:plugin": "npm run build && node scripts/package-plugin.ts",
+    "build": "node scripts/build-release.mjs",
+    "prepack": "npm run check && npm run build",
+    "test:live:harness": "npm run build && node scripts/live-harness-smoke.mjs",
+    "check:package": "node scripts/check-package.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.0"
+  },
+  "description": "One main agent, durable remote workers, and context across tasks.",
+  "bin": {
+    "rein": "bin/rein.mjs"
+  },
+  "files": [
+    "bin/",
+    "dist/runtime/",
+    "plugins/codex/",
+    "plugins/claude/",
+    "plugins/pi/",
+    "plugins/shared/",
+    "README.md",
+    "README.zh-CN.md",
+    "INSTALL.md",
+    "INSTALL.zh-CN.md",
+    "assets/",
+    "docs/operations.md",
+    "docs/operations.zh-CN.md",
+    "CHANGELOG.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rein-extension/oh-my-rein.git"
+  },
+  "homepage": "https://github.com/rein-extension/oh-my-rein#readme",
+  "bugs": {
+    "url": "https://github.com/rein-extension/oh-my-rein/issues"
+  }
+}

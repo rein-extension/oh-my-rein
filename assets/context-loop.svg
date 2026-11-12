@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="533" viewBox="0 0 880 533" role="img" aria-labelledby="title desc">
+<title id="title">What the next worker knows</title>
+<desc id="desc">Two workers build an event signup page and a confirmation email in parallel. The main agent checks the reusable email field, asks the user about an ambiguous time in the email preview, and saves the user’s Shanghai time rule. A week later a waitlist worker gets both user agreements and the reviewed finding.</desc>
+<rect width="880" height="533" rx="14" fill="#f7f5e9"/><g font-family="Helvetica Neue,Arial,PingFang SC,Microsoft YaHei,sans-serif">
+<text x="28" y="32" font-size="16" font-weight="700" fill="#385d3d">Monday · You, in the main chat</text>
+<text x="28" y="67" font-size="25" font-weight="700" fill="#242822">“For this project, signups only need an email.</text>
+<text x="28" y="97" font-size="25" font-weight="700" fill="#242822">Build the signup page and the confirmation email.”</text>
+<path d="M28 140v-6q0-8 8-8h215m381 0h211q8 0 8 8v6" fill="none" stroke="#385d3d" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="270" y="131" font-size="16" font-weight="700" fill="#385d3d">Your main agent sends two workers in parallel</text>
+<rect x="24" y="149" width="408" height="118" rx="8" fill="#e3edcf" stroke="none"/>
+<rect x="448" y="149" width="408" height="118" rx="8" fill="#ede7f6" stroke="none"/>
+<g transform="translate(40 164)">
+<rect x="0" y="0" width="30" height="24" rx="3" fill="#f7f5e9" stroke="#385d3d"/>
+<path d="M1 7h28M6 13h18M6 18h8" fill="none" stroke="#385d3d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g transform="translate(464 164)">
+<rect x="0" y="2" width="30" height="20" rx="3" fill="#f7f5e9" stroke="#674995"/>
+<path d="m1 4 14 10 14-10" fill="none" stroke="#674995" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="81" y="184" font-size="21" font-weight="700" fill="#385d3d">Worker A · Signup page</text>
+<text x="505" y="184" font-size="21" font-weight="700" fill="#674995">Worker B · Confirmation email</text>
+<text x="40" y="218" font-size="17" font-weight="400" fill="#242822">The patch uses the project’s existing email field.</text>
+<text x="40" y="244" font-size="16" font-weight="400" fill="#4b554b">Your main agent tests it and saves the finding.</text>
+<text x="464" y="218" font-size="17" font-weight="400" fill="#242822">The email preview shows “19:00”.</text>
+<text x="464" y="244" font-size="16" font-weight="400" fill="#4b554b">The worker asks which time zone to display.</text>
+<text x="28" y="298" font-size="16" font-weight="400" fill="#4b554b">On sync, your main agent brings the question back to you.</text>
+<text x="28" y="331" font-size="23" font-weight="700" fill="#242822">“Use Shanghai time. Label it on every event page and email.”</text>
+<text x="28" y="359" font-size="16" font-weight="400" fill="#4b554b">It saves your rule and passes the answer to the email worker. The next preview reads “19:00 (Shanghai time)”.</text>
+<path d="M27 380H853" fill="none" stroke="#c3c8b7" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="28" y="415" font-size="15" font-weight="700" fill="#385d3d">A week later · New chat, same project</text>
+<text x="28" y="454" font-size="26" font-weight="700" fill="#242822">“Add a waitlist page.”</text>
+<path d="M317 399V507" fill="none" stroke="#c3c8b7" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="338" y="415" font-size="16" font-weight="700" fill="#674995">The brief your main agent sends the new worker</text>
+<text x="338" y="448" font-size="18" font-weight="700" fill="#242822">Build the waitlist with the existing email field.</text>
+<text x="338" y="476" font-size="18" font-weight="400" fill="#242822">Collect only an email address. Show event times in</text>
+<text x="338" y="502" font-size="18" font-weight="400" fill="#242822">Shanghai time and label them “Shanghai time”.</text>
+</g>
+</svg>

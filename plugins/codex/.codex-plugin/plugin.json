@@ -1,0 +1,6 @@
+{
+  "name": "rein",
+  "description": "Personal main-agent context and durable worker execution (development preview)",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

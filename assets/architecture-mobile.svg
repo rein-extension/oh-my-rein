@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="562" viewBox="0 0 360 562" role="img" aria-labelledby="title desc">
+  <title id="title">Rein task lifecycle</title>
+  <desc id="desc">The main chat sends selected context over SSH to a durable Host. Workers use separate Git checkouts. Approvals and results return to the main chat on sync. Reviewed findings and user requirements can guide later tasks.</desc>
+  <rect width="360" height="562" rx="14" fill="#191c27"/>
+  <g font-family="Helvetica Neue,Arial,PingFang SC,Microsoft YaHei,sans-serif">
+    <path d="M37 66V146" fill="none" stroke="#c8f88a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M32 138l5 5 5-5" fill="none" stroke="#c8f88a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M38 203v18q0 9 10 9h32q10 0 10 9v20M38 215v6q0 9 10 9h175q10 0 10 9v20" fill="none" stroke="#c8f88a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M85 251l5 5 5-5" fill="none" stroke="#c8f88a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M228 251l5 5 5-5" fill="none" stroke="#c8f88a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M89 292H20Q9 292 9 282V49Q9 39 17 39" fill="none" stroke="#d4baff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 5"/>
+    <path d="M14 36l3 3-3 3" fill="none" stroke="#d4baff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(22 20)">
+    <path d="M10 9H44V28H36V35L27 28H10Z" fill="#26332f" stroke="#95e4cc" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0 1H32V20H15L7 27V20H0Z" fill="#2c342a" stroke="#c8f88a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M7 8H24M7 13H19" fill="none" stroke="#c8f88a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="80" y="37" font-size="22" font-weight="700" fill="#f3f0e4" text-anchor="start">Main conversation</text>
+    <text x="80" y="60" font-size="15" font-weight="400" fill="#c6cad7" text-anchor="start">You and your main agent</text>
+    <text x="53" y="99" font-size="17" font-weight="700" fill="#c8f88a" text-anchor="start">Send a task over SSH</text>
+    <text x="53" y="122" font-size="15" font-weight="400" fill="#c6cad7" text-anchor="start">Task ID, goal and selected context</text>
+    <g transform="translate(17 153)">
+    <path d="M0 20l20 -8 22 8-22 8Z" fill="#302b44" stroke="#d4baff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0 20v6l20 9 22-9v-6m-22 8v7" fill="none" stroke="#d4baff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0 10l20 -8 22 8-22 8Z" fill="#302b44" stroke="#d4baff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0 10v6l20 9 22-9v-6m-22 8v7" fill="none" stroke="#d4baff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="80" y="172" font-size="22" font-weight="700" fill="#f3f0e4" text-anchor="start">Remote Host</text>
+    <text x="80" y="196" font-size="14" font-weight="400" fill="#c6cad7" text-anchor="start">Keeps run state after disconnect.</text>
+    <g transform="translate(70 264)">
+    <path d="M0 6V2H12L16 6H37V27H0Z" fill="#26332c" stroke="#c8f88a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M6 12V22M6 18Q16 18 16 12" fill="none" stroke="#c8f88a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="6" cy="12" r="2" fill="#c8f88a" stroke="none" stroke-width="1"/>
+    <circle cx="6" cy="22" r="2" fill="#c8f88a" stroke="none" stroke-width="1"/>
+    <circle cx="16" cy="12" r="2" fill="#c8f88a" stroke="none" stroke-width="1"/>
+    </g>
+    <text x="88" y="315" font-size="17" font-weight="700" fill="#f3f0e4" text-anchor="middle">Worker A</text>
+    <text x="88" y="335" font-size="13" font-weight="400" fill="#c6cad7" text-anchor="middle">Git checkout A</text>
+    <g transform="translate(213 264)">
+    <path d="M0 6V2H12L16 6H37V27H0Z" fill="#26332c" stroke="#c8f88a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M6 12V22M6 18Q16 18 16 12" fill="none" stroke="#c8f88a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="6" cy="12" r="2" fill="#c8f88a" stroke="none" stroke-width="1"/>
+    <circle cx="6" cy="22" r="2" fill="#c8f88a" stroke="none" stroke-width="1"/>
+    <circle cx="16" cy="12" r="2" fill="#c8f88a" stroke="none" stroke-width="1"/>
+    </g>
+    <text x="231" y="315" font-size="17" font-weight="700" fill="#f3f0e4" text-anchor="middle">Worker B</text>
+    <text x="231" y="335" font-size="13" font-weight="400" fill="#c6cad7" text-anchor="middle">Git checkout B</text>
+    <path d="M20 351H340" fill="none" stroke="#424654" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="20" y="379" font-size="20" font-weight="700" fill="#d4baff" text-anchor="start">Back in the main chat</text>
+    <text x="20" y="404" font-size="15" font-weight="400" fill="#f3f0e4" text-anchor="start">Sync to answer a pending approval or</text>
+    <text x="20" y="425" font-size="15" font-weight="400" fill="#f3f0e4" text-anchor="start">review each run’s report and patch.</text>
+    <text x="20" y="448" font-size="15" font-weight="400" fill="#c6cad7" text-anchor="start">Follow up in the same worker session.</text>
+    <path d="M20 465H340" fill="none" stroke="#424654" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M37 526h-5q-9 0-9-10v-22q0-7 7-7h10" fill="none" stroke="#95e4cc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M35 482l5 5-5 5" fill="none" stroke="#95e4cc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="52" y="494" font-size="20" font-weight="700" fill="#95e4cc" text-anchor="start">Next task</text>
+    <text x="52" y="522" font-size="15" font-weight="400" fill="#f3f0e4" text-anchor="start">Select relevant requirements and</text>
+    <text x="52" y="543" font-size="15" font-weight="400" fill="#f3f0e4" text-anchor="start">findings you have reviewed.</text>
+  </g>
+</svg>
